@@ -1,0 +1,274 @@
+{
+  "size": [
+    13.333333,
+    7.5
+  ],
+  "mode": "layered",
+  "status": {
+    "outline": "pending",
+    "samples": "pending"
+  },
+  "style": {
+    "background": "F2F5F2",
+    "color": "16324F",
+    "font": "Microsoft YaHei",
+    "title_box": [
+      0.6,
+      0.3,
+      11.6,
+      0.7
+    ],
+    "content_box": [
+      0.6,
+      1.2,
+      12.1,
+      5.6
+    ],
+    "logo_box": [
+      0.6,
+      7.0,
+      1.2,
+      0.3
+    ],
+    "page_box": [
+      12,
+      7.0,
+      0.6,
+      0.3
+    ],
+    "content_surface": "matched",
+    "composition": "overlay"
+  },
+  "slides": [
+    {
+      "id": "01",
+      "type": "cover",
+      "title": "示例封面",
+      "image": "images/01.png",
+      "mode": "full"
+    },
+    {
+      "id": "02",
+      "type": "content",
+      "title": "示例正文",
+      "image": "images/02.png",
+      "mode": "layered",
+      "layout": "canvas-local"
+    }
+  ],
+  "layouts": {
+    "top-brand": {
+      "background": "F2F5F2",
+      "title_box": [
+        0.65,
+        0.4,
+        9.6,
+        0.7
+      ],
+      "logo_box": [
+        10.7,
+        0.35,
+        2,
+        0.65
+      ],
+      "content_box": [
+        0.65,
+        1.4,
+        12,
+        5.45
+      ],
+      "page_box": [
+        11.85,
+        7,
+        0.8,
+        0.3
+      ],
+      "section_box": [
+        0.65,
+        7,
+        9,
+        0.3
+      ],
+      "title_color": "173D3B",
+      "page_color": "52736F",
+      "title_align": "left",
+      "page_align": "right",
+      "title_bold": true,
+      "page_format": "{n} / {total}",
+      "accents": [
+        {
+          "type": "line",
+          "box": [
+            0.65,
+            1.2,
+            12,
+            0
+          ],
+          "color": "A6C0B7",
+          "width": 1
+        }
+      ],
+      "composition": "framed"
+    },
+    "side-guide": {
+      "background": "EFF3F7",
+      "title_box": [
+        2.4,
+        0.35,
+        10.2,
+        0.75
+      ],
+      "logo_box": [
+        0.3,
+        0.55,
+        1.5,
+        0.6
+      ],
+      "content_box": [
+        2.4,
+        1.4,
+        10.2,
+        5.4
+      ],
+      "page_box": [
+        11.9,
+        7,
+        0.7,
+        0.3
+      ],
+      "section_box": [
+        2.4,
+        7,
+        8,
+        0.3
+      ],
+      "title_color": "16324F",
+      "page_color": "49677C",
+      "page_align": "right",
+      "title_bold": true,
+      "page_format": "{n} / {total}",
+      "accents": [
+        {
+          "type": "rect",
+          "box": [
+            0,
+            0,
+            2.1,
+            7.5
+          ],
+          "color": "DCE7ED"
+        }
+      ],
+      "composition": "framed"
+    },
+    "editorial": {
+      "background": "F7F2E9",
+      "title_box": [
+        1,
+        0.35,
+        11.3,
+        0.8
+      ],
+      "logo_box": [
+        0.7,
+        7,
+        1.6,
+        0.35
+      ],
+      "content_box": [
+        0.7,
+        1.5,
+        11.9,
+        5.1
+      ],
+      "page_box": [
+        12,
+        7,
+        0.65,
+        0.3
+      ],
+      "section_box": [
+        3,
+        7,
+        7,
+        0.3
+      ],
+      "title_color": "443C33",
+      "page_color": "6B6155",
+      "title_align": "center",
+      "page_align": "right",
+      "title_font": "Microsoft YaHei",
+      "title_size": 30,
+      "title_bold": true,
+      "accents": [
+        {
+          "type": "line",
+          "box": [
+            0.7,
+            1.27,
+            11.9,
+            0
+          ],
+          "color": "B4A795",
+          "width": 0.8
+        },
+        {
+          "type": "line",
+          "box": [
+            0.7,
+            6.85,
+            11.9,
+            0
+          ],
+          "color": "D7CDBE",
+          "width": 0.6
+        }
+      ],
+      "composition": "framed"
+    },
+    "canvas-local": {
+      "composition": "overlay",
+      "title_box": [
+        0.65,
+        0.35,
+        9.4,
+        0.7
+      ],
+      "title_size": 30,
+      "title_bold": true,
+      "title_color": "16324F",
+      "logo_box": [
+        10.5,
+        0.35,
+        2.15,
+        0.65
+      ],
+      "page_box": [
+        12.45,
+        7.0,
+        0.35,
+        0.25
+      ],
+      "page_align": "right",
+      "page_color": "52736F",
+      "accents": [],
+      "title_separator": {
+        "box": [
+          0.7,
+          1.18,
+          11.9,
+          0
+        ],
+        "color": "6D9EAF",
+        "width": 0.8,
+        "clearance": 0.12
+      }
+    }
+  },
+  "body_design": {
+    "layout": "canvas-local",
+    "reference_image": "assets/approved-reference.png",
+    "locked": false,
+    "enforce_body_mode": true
+  }
+}
